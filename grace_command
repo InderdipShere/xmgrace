@@ -1,0 +1,18 @@
+# Command to read the data values and then scales it accorndingly Cond by 2 and rest all by size of system
+s0.y = s0.y / 2000
+s1.y = s1.y / 1000
+s2.y = s2.y / 1000
+s3.y = s3.y / 1000
+s4.y = s4.y / 1000
+s5.y = s5.y / 1000
+
+#s0 line color 3
+#s1 line color 4
+#title "A Gnasty Graph"
+#xaxis label "Time ( s )"
+#yaxis label "Gnats ( 1000's  )"
+#autoscale 
+world 1000, 0, 1000000000, 1
+yaxis  tick major 0.1
+xaxis  tick major 10
+

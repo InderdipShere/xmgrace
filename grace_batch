@@ -1,0 +1,115 @@
+world 0.02, 0, 200, 1005
+view 0.150000, 0.150000, 1.150000, 0.850000
+
+
+xaxes scale Logarithmic
+xaxis  bar linewidth 3.0
+xaxis  label "Time"
+xaxis  label char size 1.56000
+xaxis  tick major linewidth 3.0
+xaxis  tick minor linewidth 3.0
+xaxis  ticklabel char size 1.300000
+xaxis  tick major 10
+xaxis  tick minor  ticks 9
+xaxis  ticklabel format power
+xaxis  ticklabel prec 0
+
+
+yaxis  bar linewidth 3.0
+yaxis  label "Amount"
+yaxis  label char size 1.560000
+yaxis  tick major 200
+yaxis  tick major linewidth 3.0
+yaxis  tick minor linewidth 3.0
+yaxis  ticklabel char size 1.300000
+
+legend box linewidth 2.0
+#legend 0.875735294, 0.80245098
+legend char size 1.200000
+legend length 0
+legend vgap 2
+legend hgap 1
+
+
+s0 line linewidth 3.0
+s0 line color 1
+s0 legend  "M"
+s0 symbol 1
+s0 symbol size 1.620000
+s0 symbol color 1
+s0 symbol pattern 1
+s0 symbol fill color 1
+s0 symbol fill pattern 1
+s0 symbol skip 5
+
+
+s1 line linewidth 3.0
+s1 line color 2
+s1 legend  "O"
+s1 symbol 2
+s1 symbol size 1.620000
+s1 symbol color 2
+s1 symbol pattern 1
+s1 symbol fill color 2
+s1 symbol fill pattern 1
+s1 symbol skip 5
+
+s2 line linewidth 3.0
+s2 line color 15
+s2 legend  "P"
+s2 symbol 3
+s2 symbol size 1.620000
+s2 symbol color 15
+s2 symbol pattern 1
+s2 symbol fill color 15
+s2 symbol fill pattern 1
+s2 symbol skip 5
+
+s3 line linewidth 3.0
+s3 line color 11
+s3 legend  "Cross-link"
+s3 hidden false
+s3 symbol 4
+s3 symbol size 1.620000
+s3 symbol color 11
+s3 symbol pattern 1
+s3 symbol fill color 11
+s3 symbol fill pattern 1
+s3 symbol skip 5
+
+s4 line linewidth 3.0
+s4 line color 4
+s4 legend  "H"
+s4 symbol 5
+s4 symbol size 1.620000
+s4 symbol color 4
+s4 symbol pattern 1
+s4 symbol fill color 4
+s4 symbol fill pattern 1
+s4 symbol skip 5
+s4 hidden true
+
+s5 line linewidth 3.0
+s5 line color 12
+s5 legend  "DOC"
+s5 symbol 6
+s5 symbol size 1.620000
+s5 symbol color 12
+s5 symbol pattern 1
+s5 symbol fill color 12
+s5 symbol fill pattern 1
+s5 symbol skip 5
+s5.y=s5.y/2
+
+s6 line linewidth 3.0
+s6 line color 6
+s6 legend  "OH"
+s6 hidden true
+s6 symbol 7
+s6 symbol size 1.620000
+s6 symbol color 6
+s6 symbol pattern 1
+s6 symbol fill color 6
+s6 symbol fill pattern 1
+s6 symbol skip 5
+
